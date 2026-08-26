@@ -19,7 +19,7 @@ int main () {
     cout << "peease enter carprice" << endl ;
     cin >> a.price ;
 
-    cout << " a card has below features" << endl << "Car Name : " << a.carName << endl << "Car Color : " << a.carColor << endl << "Car Price : " << a.price << endl;
+    cout << "a car has below features\n" << endl << "Car Name : \t" << a.carName << endl << "Car Color : \t" << a.carColor << endl << "Car Price : \t" << a.price << endl;
     
     return 0;
 }
