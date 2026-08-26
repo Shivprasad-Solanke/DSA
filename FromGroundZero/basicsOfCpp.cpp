@@ -79,39 +79,57 @@ int main() {
     //         break;
     // }
 
-    // Loops
-    //for loop
-    cout << "enter the charecter that you want to make pattern with" << endl;
-    char patternChar;
-    cin >> patternChar;
-    cout << "enter no of rows and no of columns : " << endl;
-    int cols,rows;
-    cin >> rows;
-    cin >> cols;
+    // // Loops
+    // //for loop
+    // cout << "enter the charecter that you want to make pattern with" << endl;
+    // char patternChar;
+    // cin >> patternChar;
+    // cout << "enter no of rows and no of columns : " << endl;
+    // int cols,rows;
+    // cin >> rows;
+    // cin >> cols;
     
-    for (int i = 1; i <= rows ; i++) {
-        for (int j = 1; j <= i ; j++) {
-            cout << patternChar;
-        }
-        cout << endl;
-    } 
+    // for (int i = 1; i <= rows ; i++) {
+    //     for (int j = 1; j <= i ; j++) {
+    //         cout << patternChar;
+    //     }
+    //     cout << endl;
+    // } 
 
-    //while loop
-    int i = rows;
-    //cout << "i out of while  = " << i << endl;
+    // //while loop
+    // int i = rows;
+    // //cout << "i out of while  = " << i << endl;
 
-    while(i >= 1) {
-        //cout << "i inside first while  = " << i << endl;
-        int j = i;
-        //cout << "j out of while  = " << j << endl;
-        while ( j >= 1) {
-            cout << patternChar;
-            j = --j;
-        //cout << "j inside while after operation  = " << j << endl;
-        }
-        cout << endl;
-        i = --i;
-    }
+    // while(i >= 1) {
+    //     //cout << "i inside first while  = " << i << endl;
+    //     int j = i;
+    //     //cout << "j out of while  = " << j << endl;
+    //     while ( j >= 1) {
+    //         cout << patternChar;
+    //         j = --j;
+    //     //cout << "j inside while after operation  = " << j << endl;
+    //     }
+    //     cout << endl;
+    //     i = --i;
+    // }
+
+    // Do while loop
+    
+    // int i = 0;
+    // do {
+    //     int j = 0;
+    //     do {
+    //         cout << j ;
+    //         j = ++j;
+    //     }
+    //     while (j <= i);
+    //     cout << endl;
+    //     i = ++i;
+    // }
+    // while (i <= 5);
+
+
+
 
 
 return 0;
